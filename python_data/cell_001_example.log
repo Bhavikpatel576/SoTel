@@ -1,0 +1,61 @@
+<cell_00001> 
+	gps=34,95;
+	capacity=10;
+	antennas=4;
+	<sensor_Data>
+		weather_radar=connected;
+		tampering_system=connected;
+	</sensor_data>
+	service_date=7/29/17;
+</cell_001>
+
+<cxn_1>
+	status=connecting;
+	timestamp=17.07.29.12.19.30.20;
+	device_type=cell_phone;
+	mac_addr=00:00:00:00:01;
+	rssi=-65;
+	data_rate=1gbps;
+	gps=34.9,99.1;
+	bandwidth=100MHz;
+</cxn_1>
+<cxn_2>
+	status=connecting;
+	timestamp=17.07.29.12.19.30.20;
+	device_type=cell_phone;
+	mac_addr=00:00:00:00:01;
+	rssi=-80;
+	data_rate=0gbps;
+	gps=36.9,99.1;
+	bandwidth=100MHz;
+</cxn_2>
+<cxn_1>
+	status=connected;
+	timestamp=17.07.29.12.20.30.20;
+	device_type=cell_phone;
+	mac_addr=00:00:00:00:01;
+	rssi=-65;
+	data_rate=1gbps;
+	gps=34.9,99.1;
+	bandwidth=100MHz;
+</cxn_1>
+<cxn_2>
+	status=terminated;
+	err_msg="Power too low"
+	timestamp=17.07.29.12.19.30.20;
+	device_type=cell_phone;
+	mac_addr=00:00:00:00:02;
+	rssi=-110;
+	data_rate=0gbps;
+	gps=34.9,99.1;
+	bandwidth=100MHz;
+</cxn_2>
+<back_haul_01>
+	status=connected;
+	timestamp=17.07.29.12.19.30.20;
+	data=0xFFFFFFFFFFFF;
+</back_haul_01>
+<back_haul_01>
+	status=disconnected;
+	timestamp=17.07.29.12.19.30.21;
+</back_haul_01>
